@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AltioraX — Coming Soon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background: radial-gradient(circle at top, #0f172a, #020617);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            animation: fadeIn 1.5s ease forwards;
+        }
+
+        .logo {
+            font-size: 4rem;
+            font-weight: 600;
+            letter-spacing: 4px;
+            margin-bottom: 20px;
+        }
+
+        .logo span {
+            background: linear-gradient(90deg, #38bdf8, #60a5fa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            font-weight: 300;
+            opacity: 0.85;
+            margin-bottom: 40px;
+        }
+
+        .coming {
+            font-size: 1.6rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            opacity: 0.9;
+        }
+
+        .line {
+            width: 120px;
+            height: 2px;
+            background: linear-gradient(90deg, #38bdf8, #60a5fa);
+            margin: 25px auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 30px;
+            font-size: 0.9rem;
+            opacity: 0.6;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .logo {
+                font-size: 2.8rem;
+            }
+
+            .coming {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="logo">ALTIORA<span>X</span></div>
+    <div class="tagline">Learn. Build. Rise.</div>
+
+    <div class="line"></div>
+
+    <div class="coming">Coming Soon</div>
+</div>
+
+<footer>
+    © 2025 AltioraX. All rights reserved.
+</footer>
+
+</body>
+</html>
